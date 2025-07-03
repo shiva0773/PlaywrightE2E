@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: https://training.openspan.com/home
+  - img
+- list:
+  - listitem:
+    - link "Settings":
+      - /url: "#"
+      - img "Settings"
+- text: Welcome, admin
+- list:
+  - text: "0"
+  - listitem:
+    - link "Cart":
+      - /url: https://training.openspan.com/order
+      - img "Cart"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: https://training.openspan.com/home
+  - listitem:
+    - link "Products":
+      - /url: https://training.openspan.com/products
+  - listitem:
+    - link "Order":
+      - /url: https://training.openspan.com/order
+  - listitem:
+    - link "Shipping":
+      - /url: https://training.openspan.com/shipping
+  - listitem:
+    - link "Stores":
+      - /url: https://training.openspan.com/store_locator
+  - listitem:
+    - link "Inventory":
+      - /url: https://training.openspan.com/inventory
+- table:
+  - rowgroup:
+    - row "Order Products Home":
+      - cell "Order Products":
+        - heading "Order Products" [level=1]
+      - cell "Home":
+        - link "Home":
+          - /url: https://training.openspan.com/home
+- separator
+- paragraph: "Order #535283"
+- paragraph: Thank you for placing an order with ACME!
+- paragraph
+```

@@ -1,0 +1,78 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: https://training.openspan.com/home
+  - img
+- list:
+  - listitem:
+    - link "Settings":
+      - /url: "#"
+      - img "Settings"
+- text: Welcome, admin
+- list:
+  - text: "4"
+  - listitem:
+    - link "Cart":
+      - /url: https://training.openspan.com/order
+      - img "Cart"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: https://training.openspan.com/home
+  - listitem:
+    - link "Products":
+      - /url: https://training.openspan.com/products
+  - listitem:
+    - link "Order":
+      - /url: https://training.openspan.com/order
+  - listitem:
+    - link "Shipping":
+      - /url: https://training.openspan.com/shipping
+  - listitem:
+    - link "Stores":
+      - /url: https://training.openspan.com/store_locator
+  - listitem:
+    - link "Inventory":
+      - /url: https://training.openspan.com/inventory
+- table:
+  - rowgroup:
+    - row "ACME Product Search System":
+      - cell "ACME Product Search System":
+        - heading "ACME Product Search System" [level=1]
+      - cell
+- separator
+- table:
+  - rowgroup:
+    - 'row "Welcome to the ACME Product Search System. This web application has been created specifically for training on the Pega Robotics Studio application. The products shown in this application are from the sample Northwinds database. Select Product Type Select Product View Details News Alert: All packages shipped via DHL on May 20, 2013 experienced delayed delivery dates of up to 24 hours."':
+      - cell "Welcome to the ACME Product Search System. This web application has been created specifically for training on the Pega Robotics Studio application. The products shown in this application are from the sample Northwinds database.":
+        - paragraph: Welcome to the ACME Product Search System. This web application has been created specifically for training on the Pega Robotics Studio application. The products shown in this application are from the sample Northwinds database.
+      - 'cell "Select Product Type Select Product View Details News Alert: All packages shipped via DHL on May 20, 2013 experienced delayed delivery dates of up to 24 hours."':
+        - table:
+          - rowgroup:
+            - row "Select Product Type":
+              - cell
+              - cell "Select Product Type":
+                - combobox:
+                  - option "Select Product Type" [selected]
+                  - option "Beverages"
+                  - option "Seasonings"
+            - row:
+              - cell
+              - cell
+            - row "Select Product":
+              - cell
+              - cell "Select Product":
+                - combobox [disabled]:
+                  - option "Select Product" [selected]
+            - row:
+              - cell
+              - cell
+            - row "View Details":
+              - cell
+              - cell "View Details":
+                - button "View Details" [disabled]
+        - paragraph: "News Alert:"
+        - paragraph: All packages shipped via DHL on May 20, 2013 experienced delayed delivery dates of up to 24 hours.
+- paragraph
+```

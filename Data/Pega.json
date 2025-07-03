@@ -1,0 +1,21 @@
+{
+"title":"Home | Pega Studio Training Web Application",
+"product":"Products",
+"items":["Chang","Ipoh Coffee"],
+"ordertxt":"item added to your cart",
+"step1":"Step 1 Place Your Order",
+"step2":"Step 2 Tell Us Who You Are",
+"fname":"open",
+"lname":"close",
+"company":"logistic",
+"address":"1234 Main Street",
+"zip":"12345",
+"areacode":"123",
+"phone":"1234567890",
+"securitycode":"123",
+"cardnumber":"1234567890123456",
+"cardtype":"Visa",
+"expirymon":"May",
+"expirye":"2019"
+
+}

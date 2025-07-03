@@ -1,0 +1,138 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: https://training.openspan.com/home
+  - img
+- list:
+  - listitem:
+    - link "Settings":
+      - /url: "#"
+      - img "Settings"
+- text: Welcome, admin
+- list:
+  - text: "0"
+  - listitem:
+    - link "Cart":
+      - /url: https://training.openspan.com/order
+      - img "Cart"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: https://training.openspan.com/home
+  - listitem:
+    - link "Products":
+      - /url: https://training.openspan.com/products
+  - listitem:
+    - link "Order":
+      - /url: https://training.openspan.com/order
+  - listitem:
+    - link "Shipping":
+      - /url: https://training.openspan.com/shipping
+  - listitem:
+    - link "Stores":
+      - /url: https://training.openspan.com/store_locator
+  - listitem:
+    - link "Inventory":
+      - /url: https://training.openspan.com/inventory
+- table:
+  - rowgroup:
+    - row "Beverages Home":
+      - cell "Beverages":
+        - heading "Beverages" [level=1]
+      - cell "Home":
+        - link "Home":
+          - /url: https://training.openspan.com/home
+- separator
+- table:
+  - rowgroup:
+    - row "Product ▾ Price Product ID":
+      - cell "Product ▾"
+      - cell "Price"
+      - cell "Product ID"
+  - rowgroup:
+    - row "Chai (open in a new window) 0.00 1":
+      - cell "Chai (open in a new window)":
+        - link "Chai":
+          - /url: https://training.openspan.com/product/detail/1/1
+        - link "(open in a new window)":
+          - /url: javascript:open_applet();
+      - cell "0.00"
+      - cell "1"
+    - row "Chang 0.00 2":
+      - cell "Chang":
+        - link "Chang":
+          - /url: https://training.openspan.com/product/detail/1/2
+      - cell "0.00"
+      - cell "2"
+    - row "Chartreuse verte 0.00 39":
+      - cell "Chartreuse verte":
+        - link "Chartreuse verte":
+          - /url: https://training.openspan.com/product/detail/1/39
+      - cell "0.00"
+      - cell "39"
+    - row "Cote de Blaye 280.00 38":
+      - cell "Cote de Blaye":
+        - link "Cote de Blaye":
+          - /url: https://training.openspan.com/product/detail/1/38
+      - cell "280.00"
+      - cell "38"
+    - row "Guarana Fantastica 4.50 24":
+      - cell "Guarana Fantastica":
+        - link "Guarana Fantastica":
+          - /url: https://training.openspan.com/product/detail/1/24
+      - cell "4.50"
+      - cell "24"
+    - row "Ipoh Coffee 88.00 43":
+      - cell "Ipoh Coffee":
+        - link "Ipoh Coffee":
+          - /url: https://training.openspan.com/product/detail/1/43
+      - cell "88.00"
+      - cell "43"
+    - row "Lakkalikoori 18.00 76":
+      - cell "Lakkalikoori":
+        - link "Lakkalikoori":
+          - /url: https://training.openspan.com/product/detail/1/76
+      - cell "18.00"
+      - cell "76"
+    - row "Laughing Lumberjack Lager 14.00 67":
+      - cell "Laughing Lumberjack Lager":
+        - link "Laughing Lumberjack Lager":
+          - /url: https://training.openspan.com/product/detail/1/67
+      - cell "14.00"
+      - cell "67"
+    - row "Outback Lager 0.00 70":
+      - cell "Outback Lager":
+        - link "Outback Lager":
+          - /url: https://training.openspan.com/product/detail/1/70
+      - cell "0.00"
+      - cell "70"
+    - row "Rhonbrau Klosterbier 0.00 75":
+      - cell "Rhonbrau Klosterbier":
+        - link "Rhonbrau Klosterbier":
+          - /url: https://training.openspan.com/product/detail/1/75
+      - cell "0.00"
+      - cell "75"
+    - row "Sasquatch Ale 14.00 34":
+      - cell "Sasquatch Ale":
+        - link "Sasquatch Ale":
+          - /url: https://training.openspan.com/product/detail/1/34
+      - cell "14.00"
+      - cell "34"
+    - row "Steeleye Stout 18.00 35":
+      - cell "Steeleye Stout":
+        - link "Steeleye Stout":
+          - /url: https://training.openspan.com/product/detail/1/35
+      - cell "18.00"
+      - cell "35"
+  - rowgroup:
+    - row "See All Products See Seasonings":
+      - cell "See All Products":
+        - link "See All Products":
+          - /url: https://training.openspan.com/products
+      - cell
+      - cell "See Seasonings":
+        - link "See Seasonings":
+          - /url: https://training.openspan.com/product/seasonings
+- paragraph
+```
