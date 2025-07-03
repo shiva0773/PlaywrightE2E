@@ -27,10 +27,13 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
 
-['html'],
-['allure-playwright', ]
+['html',
+{outputFolder:'playwright-report',open: 'never'}],
+['allure-playwright', ],
+
 
   ],
+  globalTeardown: require.resolve('./globalTeardown.js'),
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -44,7 +47,7 @@ export default defineConfig({
       timeout: 50000
     },
     headless: true,
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */

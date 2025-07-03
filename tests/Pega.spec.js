@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test';
+const { registerFailureScreenshot } = require('../global-setup-hooks');
 const { loginpega, data, selectbeverage, placeorder, billinginfo, cardinfo,today } = require('../testSetup');
 
-
+//registerFailureScreenshot(test)
 
 
 test.beforeEach(async ({ page }) => {
